@@ -10,6 +10,7 @@ for i in range(m):
         s.pop()
     if cmd[0]=="remove":
         s.remove(int(cmd[1]))
+    
         
     if cmd[0]=="discard":
         s.discard(int(cmd[1]))
