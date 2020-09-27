@@ -1,4 +1,12 @@
-abc=set([1,1,2,3,2,2,1])
-print(abc)
-
-
+m=int(input())
+a=input()
+first=list(map(int,a.split()))
+n=int(input())
+b=input()
+second=list(map(int,b.split()))
+seta=set(first)
+setb=set(second)
+diff=set()
+diff.update(seta.difference(setb))
+diff.update(setb.difference(seta))
+print('\n'.join(str(s) for s in sorted(diff)))
