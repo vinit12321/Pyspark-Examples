@@ -10,7 +10,7 @@ def myFun1(**kwargs):
     for key,value in kwargs.items():  
         print ("My {} is {}".format(key,value)) 
     
-myFun('My Name is Vinit','Bye Bye ') 
+myFun('My Name is Vinit','Bye Bye') 
 myFun1(name="vinit")
 
 

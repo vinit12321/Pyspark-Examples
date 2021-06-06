@@ -26,5 +26,5 @@ def CountOccurrences(string, substring):
 	return count 
 
 # Driver Code 
-string = "BANANA"
+string = "Bhushan"
 print(CountOccurrences(string, "ANA")) 

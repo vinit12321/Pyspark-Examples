@@ -4,4 +4,4 @@ a=10
 b=3
 a,b=b,a
 print(a,b)
-tup[1]=3
+# tup[1]=3 which will give error 
