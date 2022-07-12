@@ -119,6 +119,24 @@ def accumulate_itertools():
     print("Acculate after  Multiplication")
     print(list(itertools.accumulate(lis,operator.mul)))
 
+
+def chain_itertools():
+    """
+    This function is used to print all the values in iterable targets one after another mentioned in its arguments.
+    """
+    li1 = [1, 4, 5, 7]
+   
+    # initializing list 2
+    li2 = [1, 6, 5, 9]
+    
+    # initializing list 3
+    li3 = [8, 10, 5, 4]
+    
+    # using chain() to print all elements of lists
+    print ("All values in mentioned chain are : ", end ="")
+    print (list(itertools.chain(li1, li2, li3)))
+
+
 if __name__ == "__main__":
     # count_itertools(2,2)
     # cycle_itertools("AB")

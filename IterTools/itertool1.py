@@ -8,3 +8,4 @@ for k in lis:
 s="HACK"
 n=2
 print(*[''.join(i) for i in permutations(sorted(s),int(n))],sep='\n')
+print
